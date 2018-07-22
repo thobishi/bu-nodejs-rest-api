@@ -1,0 +1,28 @@
+{
+  "name": "bu-express-js-docker",
+  "version": "1.0.0",
+  "description": "Borwa Ubora Express.js on Docker",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "Borwa",
+    "Ubora"
+  ],
+  "author": "Borwa Ubora - Thobishi Moreko - <thobishi@borwaubora.co.za>",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-xml-bodyparser": "^0.3.0",
+    "ibm_db": "^2.4.0",
+    "moment": "^2.22.2",
+    "mysql": "^2.15.0",
+    "nodemon": "^1.18.3"
+  }
+}
